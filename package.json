@@ -1,0 +1,11 @@
+{
+  "name": "migrate-to-typescript-the-advance-guide",
+  "version": "1.0.0",
+  "private": "true",
+  "workspaces": [
+    "1.typing-begins",
+    "2.the-strict-type-check",
+    "3.the-strict-type-check-rises",
+    "some-js-lib"
+  ]
+}

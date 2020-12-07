@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "extends": "./tsconfig.json",
+    "target": "es2018",
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "outDir": "./built"
+  },
+  "exclude": ["src/client"]
+}

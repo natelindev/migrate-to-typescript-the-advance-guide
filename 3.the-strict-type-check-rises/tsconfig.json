@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "es5",
+    "lib": ["es2018", "dom"],
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    },
+    "baseUrl": "."
+  },
+  "include": ["src"]
+}

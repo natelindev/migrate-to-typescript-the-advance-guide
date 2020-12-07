@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "extends": "./tsconfig.json",
+    "target": "es5",
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "lib": ["es2018", "dom"]
+  },
+  "exclude": ["src/server"]
+}
