@@ -3,7 +3,7 @@
     "module": "commonjs",
     "target": "es5",
     "checkJs": true,
-    "lib": ["es2015"]
+    "lib": ["es2015", "dom"]
   },
   "paths": {
     "*": ["node_modules/*", "src/types/*"]

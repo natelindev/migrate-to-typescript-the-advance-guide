@@ -15,6 +15,10 @@ const user = {
 /**
  * @type {User[]}
  */
-const users = [];
+const users = [user];
 
 const onlineUsers = users.filter((u) => u.status === 'online');
+
+console.log(
+  onlineUsers.map((ou) => `${ou.firstname} ${ou.lastname} is ${ou.status}`)
+);
