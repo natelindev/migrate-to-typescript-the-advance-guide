@@ -6,6 +6,7 @@
  * @type {User}
  */
 const user = {
+  id: 1234,
   firstname: 'Bruce',
   lastname: 'Wayne',
   status: 'online',

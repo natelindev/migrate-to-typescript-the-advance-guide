@@ -1,3 +1,5 @@
+import { User } from './models/user';
+
 type Message = {
   content: string;
   createAt: Date;
