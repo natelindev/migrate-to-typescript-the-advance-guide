@@ -4,8 +4,8 @@
   "private": "true",
   "workspaces": [
     "1.typing-begins",
-    "2.the-strict-type-check",
-    "3.the-strict-type-check-rises",
+    "2.the-type-check",
+    "3.the-type-check-rises",
     "some-js-lib"
   ]
 }
